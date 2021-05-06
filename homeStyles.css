@@ -1,0 +1,379 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(1, 60, 68);
+    margin-left: 0;
+}
+/*------------div padre--------------------------*/
+.container{
+    height: 20vw;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------div hijo-------------------*/
+.content{
+    height: 50%;
+    width: 80%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    overflow: hidden;
+}
+
+#corch1{
+    height: 90%;
+    width: 10%;
+    position: relative;
+    top: 5%;
+    left: 1%;
+    text-align: center;
+}
+#c1{
+    position: relative;
+    left: 2%;
+    font-size: 7vw;
+    color: whitesmoke;
+}
+#name{
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+}
+#n{
+    position: relative;
+    top: 20%;
+    left: 2%;
+    font-size: 4.7vw;
+    color: whitesmoke;
+}
+#slide1{
+    height: 90%;
+    width: 35.5%;
+    position: absolute;
+    top: 5%;
+    left: 52.5%;
+}
+
+#slide1 li{
+    margin-top: 2%; 
+    margin-left: -10%;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 6vw;
+}
+
+#corch2{
+    height: 90%;
+    width: 10%;
+    position: absolute;
+    top: 5%;
+    left: 89%;
+}
+#c2{
+    position: relative;
+    left: 45%;
+    font-size: 7vw;
+    color: whitesmoke;
+}
+
+
+
+
+.animacionBlink{
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+/*----------------------CONFIGURACION DE ANIMACION DE CONTENEDOR--------------------*/
+@keyframes blink {
+    0%{
+        color: whitesmoke;
+    }
+    10%{
+        color: rgba(245, 245, 245, 0.849);
+    }
+    20%{
+        color: rgba(245, 245, 245, 0.678);
+    }
+    30%{
+        color: rgba(245, 245, 245, 0.534);
+    }
+    40%{
+        color: rgba(245, 245, 245, 0.397);
+    }
+    50%{
+        color: rgba(245, 245, 245, 0.096);
+    }
+    70%{
+        color: rgba(245, 245, 245, 0.397);
+    }
+    80%{
+        color: rgba(245, 245, 245, 0.534);
+    }
+    90%{
+        color: rgba(245, 245, 245, 0.678);
+    }
+    100%{
+        color: rgba(245, 245, 245, 0.849);
+    }
+   
+}
+#slide1 ul{
+    animation: vertical 5s infinite;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+}
+/*DURACION DE ANIMACION EN FRAMES*/
+@keyframes vertical{
+        0%{
+            opacity: 1;
+            margin-top: 2%;
+        }
+        33.33%{
+            margin-top: -25%;
+        }
+        66.66%{
+            margin-top: -50%;
+            opacity: 1;
+        }
+        90%{
+            margin-top: -90%;
+            opacity: 0;
+        }
+        92%{
+            margin-top: 2%;
+            opacity: 0;
+        }
+        94%{
+            margin-top: 2%;
+            opacity: 0.2;
+        }
+        96%{
+            margin-top: 2%;
+            opacity: 0.6;
+        }
+        98%{
+            margin-top: 2%;
+            opacity: 0.8;
+        }
+        100%{
+            margin-top: 2%;
+            opacity: 1;
+        }
+    }
+
+    /*--------------------BOTONES----------------------------*/
+
+    .btncontainer{
+        height: 15vw;
+        width: 100%;
+        position: absolute;
+        top: 40%;
+    }
+
+    #btnYoutube{
+        height: inherit;
+        width: 20%;
+        position: relative;
+        top: 0%;
+        left: 5%;
+    }
+    #youtube{
+        height: 80%;
+        width: 80%;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-image: url('youtube (1).png');
+        background-position: center;
+        background-position-y: 60%;
+        background-size: contain;
+        position: relative;
+        top:10%;
+        left: 10%;
+    }
+    #youtube:hover{
+        transition-duration: 0.3s;
+        transform: scale(1.5);
+    }
+    #btnFacebook{
+        height: inherit;
+        width: 20%;
+        position: relative;
+        top: -100%;
+        left: 30%;
+    }
+    #facebook{
+        border-radius: 20px;
+        height: 80%;
+        width: 80%;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-image: url('facebook (1).png');
+        background-position: center;
+        background-position-y: 60%;
+        background-size: contain;
+        position: relative;
+        top:10%;
+        left: 10%;
+    }
+    #facebook:hover{
+        transition-duration: 0.3s;
+        transform: scale(1.2);
+    }
+    #btnTwitter{
+        height: inherit;
+        width: 20%;
+        position: relative;
+        top: -200%;
+        left: 55%;
+    }
+    #twitter{
+        height: 80%;
+        width: 80%;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-image: url(twitter.png);
+        background-position: center;
+        background-position-y: 60%;
+        background-size: contain;
+        position: relative;
+        top:10%;
+        left: 10%;
+    }
+    #twitter:hover{
+        transition-duration: 0.3s;
+        transform: scale(1.2);
+    }
+    #btnInstagram{
+        height: inherit;
+        width: 20%;
+        position: relative;
+        top: -300%;
+        left: 80%;
+    }
+    #instagram{
+        height: 80%;
+        width: 80%;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-image: url('instagram (1).png');
+        background-position: center;
+        background-position-y: 60%;
+        background-size: contain;
+        position: relative;
+        top:10%;
+        left: 10%;
+    }
+    #instagram:hover{
+        transition-duration: 0.3s;
+        transform: scale(1.2);
+    }
+/*--------------------ANIMACION OLAS----------------------------*/
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: -1;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+}
+
+.wave.wave1{
+animation: animate 30s linear  infinite;
+z-index: 1000;
+opacity: 1;
+animation-delay: 0s;
+bottom: 0;
+}
+@keyframes animate {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+.wave.wave2{
+    animation: animate2 15s linear  infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+    }
+    @keyframes animate2 {
+        0%{
+            background-position-x: 0;
+        }
+        100%{
+            background-position-x: -1000px;
+        }
+    }
+
+    .wave.wave3{
+        animation: animate3 15s linear  infinite;
+        z-index: 998;
+        opacity: 0.2;
+        animation-delay: -2s;
+        bottom: 15px;
+        }
+        @keyframes animate3 {
+            0%{
+                background-position-x: 0;
+            }
+            100%{
+                background-position-x: 1000px;
+            }
+        }
+        .wave.wave4{
+            animation: animate4 5s linear  infinite;
+            z-index: 997;
+            opacity: 0.7;
+            animation-delay: -2s;
+            bottom: 20px;
+            }
+            @keyframes animate4 {
+                0%{
+                    background-position-x: 0;
+                }
+                100%{
+                    background-position-x: 1000px;
+                }
+            }
+
+            .texto{
+                width:100%; 
+                height: 30%; 
+                background-color: blueviolet; 
+                margin-top: 20%;
+                font-size: 4.5vw;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align: center;
+                color: whitesmoke;
+            }
