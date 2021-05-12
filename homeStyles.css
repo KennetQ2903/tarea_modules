@@ -187,7 +187,7 @@ body{
 
     /*--------------------BOTONES----------------------------*/
 #espacio1{
-    background-color: orange;
+    
     width: 100%;
     height: 5vh;
     display: block;
@@ -222,7 +222,7 @@ body{
         left: 10%;
     }
     #youtube:hover{
-        transition-duration: 0.3s;
+        transition-duration: 0.1s;
         transform: scale(1.5);
     }
     #btnFacebook{
@@ -249,7 +249,7 @@ body{
         left: 10%;
     }
     #facebook:hover{
-        transition-duration: 0.3s;
+        transition-duration: 0.1s;
         transform: scale(1.2);
     }
     #btnTwitter{
@@ -276,7 +276,7 @@ body{
         left: 10%;
     }
     #twitter:hover{
-        transition-duration: 0.3s;
+        transition-duration: 0.1s;
         transform: scale(1.2);
     }
     #btnInstagram{
@@ -302,7 +302,7 @@ body{
         left: 10%;
     }
     #instagram:hover{
-        transition-duration: 0.3s;
+        transition-duration: 0.1s;
         transform: scale(1.2);
     }
 /*--------------------ANIMACION OLAS----------------------------*/
@@ -381,7 +381,7 @@ bottom: 0;
                 }
             }
             #espacio2{
-                background-color: orange;
+             
                 width: 100%;
                 height: 5vh;
                 display: block;
@@ -448,7 +448,7 @@ bottom: 0;
             #s6{
                 width: 88vw;
                  height: 45vw;
-                 background-image: url(series/fullmetal.jpg);
+                 background-image: url(series/YourHonor.jpeg);
                  background-repeat: no-repeat;
                  background-size: 88vw, 45vw;
                 
@@ -479,7 +479,7 @@ bottom: 0;
             
             
             #espacio3{
-                background-color: rgb(255, 166, 0);
+
                 width: 100%;
                 height: 5vh;
                 display: block; 
@@ -491,4 +491,295 @@ bottom: 0;
                 overflow: hidden;
                 position: relative;
             }
+            #csstitle{
+                font-size: 7vw;
+                color: whitesmoke;
+                text-align: left;
+            }
+            .txtcolor{
+                animation: arcoiris 1s alternate infinite;
+            }
+            @keyframes arcoiris {
+                0%{
+                    color: whitesmoke;
+                }
+                10%{
+                    color: yellow;
+                }
+                20%{
+                    color: rgb(255, 208, 0);
+                }
+                30%{
+                    color: rgb(255, 145, 0);
+                }
+                40%{
+                    color: rgb(255, 60, 0);
+                }
+                50%{
+                    color: rgb(255, 0, 0);
+                }
+                60%{
+                    color: rgb(255, 0, 191);
+                }
+                70%{
+                    color: rgb(162, 0, 255);
+                }
+                80%{
+                    color: rgb(0, 17, 255);
+                }
+                90%{
+                    color: rgb(0, 247, 255);
+                }
+                100%{
+                    color: rgb(0, 255, 42);
+                }
+            }
+            #datosCuriosos{
+                
+                width: 90%;
+                height: 60vw;
+                margin-left: 5%;
+            }
+            #datos{
+                
+                width: 95%;
+                margin-left: 2.5%;
+                height: 85%;
+                
+            }
+            #dat1{
+                
+                width: 100%;
+                height: 33.33%;
+                display: flex;
+            }
+            .dat1{
+                
+                width: 33%;
+                height: 90%;
+                margin: 1%;
+                border-radius: 5%;
+            }
+            .dat1:hover{
+                transform: scale(1.1);
+                transition-duration: .2s;
+            }
+            #dat2{
+                
+                width: 100%;
+                height: 33.33%;
+                display: flex;
+            }
+            #dat3{
+                
+                width: 100%;
+                height: 33.33%;
+                display: flex;
+            }
+
+            
+           #over1{
+               width: 100%;
+               height: 100%;
+               border-radius: 5%;
+               margin: 0;
+               position: relative;
+               z-index: 2;
+               background-image: url(DatosCu/dormir.jpg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position-y: -4vw;
+           }
+           #txt1{
+            font-size: 1.5vw;
+            color: rgb(0, 225, 255);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over2{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/scooby.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        #txt2{
+            font-size: 1.5vw;
+            color: rgb(255, 251, 0);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over3{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/Turritopsis_Nutricula.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        #txt3{
+            font-size: 1.5vw;
+            color: rgb(253, 253, 253);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over4{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/curiosidad.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        #txt4{
+            font-size: 1.5vw;
+            color: rgb(255, 0, 0);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over5{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/risa.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        #txt5{
+            font-size: 1.5vw;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over6{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/hormiga\ soldado.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        #txt6{
+            font-size: 1.5vw;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over7{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/telaraña.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+
+        #txt7{
+            font-size: 1.5vw;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+            #over8{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/tronarsededos.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        
+        #txt8{
+            font-size: 1.5vw;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           #over9{
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            background-image: url(DatosCu/huraca.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: 0;
+        }
+        
+        #txt9{
+            font-size: 1.5vw;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            text-align: justify;
+           }
+
+           /*----------------EFECTOS----------------------*/
+           .visible{
+               display: block;
+               transition: all 1s;
+           }
+           .invisible{
+               display: none;
+               transition: all 1s;
+           }
+           .blur{
+            transition: all 1s;
+               filter: blur(4px);
+           }
             
